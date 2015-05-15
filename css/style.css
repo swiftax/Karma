@@ -103,11 +103,73 @@ letter-spacing: 0.03em;
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
+    /*border: 1px solid black;
+    box-sizing: border-box;*/
+    height: 12em;
+    text-align: center;
+    margin-left: 13.5rem;
+    margin-right: -27rem;
+}
+
+.cases > h2 {
+	color: #000;
+	font-weight: 300;
+	font-size: 2.75rem;
+	text-align: center;
+	margin-top: 7rem;
+}
+
+.devices > h3 {
+	color: #000;
+	font-weight: 400;
+	font-size: 1.5rem;
+
+}
+
+.icons  {
+	list-style-type: none;
+	display: inline-block;
 }
 
 
+.social {
+	max-width: 12em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
 
+.icons > li {
+	display: inline-block;
+	padding-right: 4.25rem;
+	margin-left: -2rem;
+	font-size: 1.5rem;
+}
 
+.join-us {
+	color: #000;
+	font-size: 1.25rem;
+}
+
+.fa-twitter {
+	color: #3db2ba;
+}
+
+.fa-facebook {
+	color: #4467a1;
+}
+
+.fa-instagram {
+	color: #2e7399;
+}
+
+hr {
+	width: 55rem;
+	margin-left: -380px;
+	margin-right: auto;
+	color: #f00;
+	border: 0;
+	color: #DCDCDC;
+	background-color: #DCDCDC;
+	height: 1px;
+}
